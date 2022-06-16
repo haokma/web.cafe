@@ -17,7 +17,9 @@
         object-fit:cover;
     }
   }
-
+body{
+  overflow-y: hidden;
+}
 .banner{
     position: relative;
     display: -webkit-flex;
