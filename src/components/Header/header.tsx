@@ -1,4 +1,4 @@
-import { Hastag, Percent } from "components/icons";
+import { Hastag, Percent } from 'components/icons';
 
 type Props = {
   setIsSidebar: (value: boolean) => void;
@@ -13,7 +13,7 @@ const Header = (props: Props) => {
         <div>
           <img
             style={{
-              height: "60px",
+              height: '60px',
             }}
             src="https://toidicafe.vn/images/logo.svg"
           />
@@ -46,11 +46,11 @@ const Header = (props: Props) => {
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            stroke-width="3"
+            strokeWidth="3"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
             />
           </svg>
@@ -70,11 +70,7 @@ const Header = (props: Props) => {
             stroke="currentColor"
             strokeWidth={3}
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M4 6h16M4 12h16m-7 6h7"
-            />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
           </svg>
         </div>
       </div>

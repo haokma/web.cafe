@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div className="banner">
-      <div className="w-12/12 md:w-7/12 px-8">
+      <div className="desktop:w-12/12 md:w-7/12 px-8">
         <div className="mb-6">
           <h3 className=" text-xl lg:text-3xl font-semibold text-center">
             Đi & Khám Phá Điểm Hẹn Hấp Dẫn
