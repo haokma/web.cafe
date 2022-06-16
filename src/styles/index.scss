@@ -6,4 +6,37 @@
     html {
         font-family: 'Montserrat', sans-serif;
     }
+    body{
+        overflow: hidden;
+        
+    }
   }
+
+.banner{
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    z-index: 2;
+    color: #fff;
+    background: -webkit-linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)),url(https://ik.imagekit.io/reviewcafe/3511_zApiGKUaCd.jpg?tr=w-1800%2Cq-50) no-repeat; 
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)),url(https://ik.imagekit.io/reviewcafe/3511_zApiGKUaCd.jpg?tr=w-1800%2Cq-50) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    right: -100%;
+}
+.right.active{
+    right: 0;
+}
+.animation{
+    transition:  .3s cubic-bezier(.7,.3,.1,1),box-shadow .3s cubic-bezier(.7,.3,.1,1),-webkit-transform .3s cubic-bezier(.7,.3,.1,1);
+}
+.sidebar{
+    box-shadow: -6px 0 16px -8px rgb(0 0 0 / 8%), -9px 0 28px 0 rgb(0 0 0 / 5%), -12px 0 48px 16px rgb(0 0 0 / 3%);
+}
